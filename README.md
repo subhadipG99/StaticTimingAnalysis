@@ -1,18 +1,31 @@
 # StaticTimingAnalysis
 In this project we will calculate the delay of a circuit by performing static timing analysis (STA) on it. Each node of the graph corresponds to each gate of the circuit, while each edge denotes a wire connection.
 
-Hi,
-ReadLib.h --> Header file containing the class of objects of Different GATES parsed from NLDM LUT
-ReadLibFunc.h -->Header file containing funstions to read, write Class objects of ReadLib.h
-RdCkt.cpp--> Main file that parse the circuit files and perform STA
+# Circuit STA Tool
 
-**************************************************************************************************
-Steps to compile and Run
+This repository contains a tool for performing Static Timing Analysis (STA) on circuits using NLDM (Normalized Delay Model) LUTs.
 
-#1. make
-#2. ./sta <NLDM Filename> <Ckt filename> 
+## Files
 
-**************************************************************************************************
+- `ReadLib.h`: Header file containing the class of objects for different gates parsed from NLDM LUTs.
+- `ReadLibFunc.h`: Header file containing functions to read and write class objects from `ReadLib.h`.
+- `RdCkt.cpp`: Main file that parses the circuit files and performs STA.
+
+## Compilation and Execution
+
+Follow these steps to compile and run the tool:
+
+1. Compile the code using the provided Makefile:
+
+2. Run the compiled executable with the NLDM filename and circuit filename as arguments:
+
+
+
+## Example Usage
+
+```bash
+make
+./sta nldm_file.txt circuit_file.txt
 
 
 
