@@ -35,9 +35,3 @@ Replace nldm_file.txt with the filename of your NLDM file and circuit_file.txt w
 make
 ./sta nldm_file.txt circuit_file.txt
 
-
-
-
-
-
-
