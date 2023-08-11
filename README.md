@@ -9,8 +9,11 @@ RdCkt.cpp--> Main file that parse the circuit files and perform STA
 **************************************************************************************************
 Steps to compile and Run
 
-1. make
-2. ./sta <NLDM Filename> <Ckt filename> 
+#1. make
+#2. ./sta <NLDM Filename> <Ckt filename> 
+
+**************************************************************************************************
+
 
 
 
