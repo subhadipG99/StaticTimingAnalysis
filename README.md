@@ -11,7 +11,13 @@ This repository contains a tool for performing Static Timing Analysis (STA) on c
 - `ReadLibFunc.h`: Header file containing functions to read and write class objects from `ReadLib.h`.
 - `RdCkt.cpp`: Main file that parses the circuit files and performs STA.
 
+## Directories
+
+- `Circuit Files`: This directory contains the circuit description files that you want to perform STA on.
+- `NLDM LUT`: This directory contains sample NLDM (Normalized Delay Model) Look-Up Table files.
+
 ## Compilation and Execution
+
 
 Follow these steps to compile and run the tool:
 
@@ -23,9 +29,14 @@ Follow these steps to compile and run the tool:
 
 ## Example Usage
 
+Replace nldm_file.txt with the filename of your NLDM file and circuit_file.txt with the filename of your circuit description file.
+
 ```bash
 make
 ./sta nldm_file.txt circuit_file.txt
+
+
+
 
 
 
